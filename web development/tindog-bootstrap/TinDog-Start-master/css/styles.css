@@ -1,0 +1,179 @@
+
+
+body{
+      font-family: "Montserrat";
+      font-weight:bold;
+      text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+      font-family: "montserrat-bold";
+      font-weight: 600;
+}
+
+
+p{
+      font-size: 0.8rem;
+      color:#6d6b6b;
+      font-weight: 600;
+}
+
+/* container */
+
+.container-fluid{
+      padding:7% 15%;
+}
+
+/* heading section */
+.main-heading{
+      font-family: "montserrat-Black";
+      font-size: 3.5rem;
+      line-height: 1.5;
+      font-weight: 1000;
+      color:#fff;
+}
+
+.section-heading{
+      font-size: 3rem;
+      line-height: 1.5;
+}
+
+
+/* section */
+.colored-section{
+      background-color: #ff4c68;
+      color:#fff;
+}
+
+.white-section{
+      background-color:#fff;
+}
+/* Navigation bar */
+
+.navbar{
+      padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+      font-weight:bold;
+      font-size: 2.5rem;
+      font-family: 'Ubuntu';
+}
+
+.nav-item{
+      padding:0 18px;
+}
+
+.nav-link{
+      font-size: 1.2rem;
+      font-family:"Montserrat";
+      font-weight: 500;
+}
+
+/* title section */
+
+#title .container-fluid{
+      padding:3% 15% 7%;
+      text-align: left;
+}
+/* Download Button */
+.download-button{
+      margin:5% 3% 5% 0;
+}
+
+
+/* Title image */
+.title-image{
+      width:60%;
+      transform: rotate(25deg);
+      position: absolute;
+      right: 30%;
+}
+
+/* used to make mobile friendly-properties gets updated for width less than 946px */
+@media (max-width:946px){
+     .title-image{
+            transform:rotate(0deg);
+            position: static;
+            padding-top: 3%;
+          }
+
+      #title{
+            text-align: center;
+            }
+}
+
+
+/* feature section */
+#features{
+      position:relative;
+}
+
+.features-box{
+      padding:3%;
+}
+
+.feature-text{
+      font-size: 1.5rem;
+}
+
+.icon{
+      color:#ef8172;
+      padding-bottom: 10%;
+}
+
+.icon:hover{
+      color:#ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+      background-color: #ef8172;
+}
+
+.testimonial-image{
+      width:10%;
+  /* border-radius is set to 100% to get image inside a circle */
+      border-radius: 100%;
+      margin: 20px;
+}
+
+.testimonial-text{
+      font-size: 3rem;
+      line-height: 1.5;
+}
+
+
+/* press  section*/
+
+#press{
+      background-color: #ef8172;
+      padding-bottom: 20px;
+}
+
+.press-logo{
+      width:10%;
+      margin:20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+      padding:100px;
+}
+
+.pricing-box{
+      padding:3% 2%;
+}
+
+.card-text{
+      font-size: 1.5rem;
+}
+
+
+
+/* footer section */
+
+.foot{
+      margin:0 2% 3% 0;
+}
